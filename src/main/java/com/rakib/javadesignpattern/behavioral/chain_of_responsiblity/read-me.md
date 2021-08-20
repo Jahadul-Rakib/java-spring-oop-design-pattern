@@ -4,8 +4,3 @@
 * **Like many interceptor can be added and its maintain which interceptor 
 work in where and when.**
 * **Http interceptor can be the best implementation of Chan-Of-Responsibility.**
-
-**Chain:**
-  ![](/home/rakib/Desktop/chain.png)
-**Example:**
-  ![](/home/rakib/Desktop/1.png)

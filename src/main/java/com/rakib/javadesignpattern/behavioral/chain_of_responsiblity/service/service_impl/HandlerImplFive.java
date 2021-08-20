@@ -4,7 +4,7 @@ import com.rakib.javadesignpattern.behavioral.chain_of_responsiblity.service.Han
 import org.springframework.stereotype.Component;
 
 @Component
-public class HandlerImplThree implements HandlerChain {
+public class HandlerImplFive implements HandlerChain {
 
     private HandlerChain handler;
 
@@ -15,7 +15,7 @@ public class HandlerImplThree implements HandlerChain {
 
     @Override
     public void addCurrentHandlerName(String name) {
-        System.out.println(name + " , handler-three");
-        this.handler.addCurrentHandlerName("Call From three");
+        System.out.println(name + " , handler-Five");
+        System.out.println("its the end of chain");
     }
 }
