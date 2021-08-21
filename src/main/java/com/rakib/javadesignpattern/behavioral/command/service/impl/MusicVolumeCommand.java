@@ -1,11 +1,11 @@
 package com.rakib.javadesignpattern.behavioral.command.service.impl;
 
 import com.rakib.javadesignpattern.behavioral.command.hardware.Music;
-import com.rakib.javadesignpattern.behavioral.command.service.ICommand;
+import com.rakib.javadesignpattern.behavioral.command.service.Command;
 import org.springframework.stereotype.Component;
 
 @Component
-public class MusicVolumeCommand implements ICommand {
+public class MusicVolumeCommand implements Command {
     Music music;
 
     public MusicVolumeCommand(Music music) {

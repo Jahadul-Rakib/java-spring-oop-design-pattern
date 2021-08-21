@@ -1,6 +1,6 @@
 package com.rakib.javadesignpattern.behavioral.command.service;
 
 @FunctionalInterface
-public interface ICommand {
+public interface Command {
     void execute();
 }
